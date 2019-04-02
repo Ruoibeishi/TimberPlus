@@ -1,0 +1,9 @@
+# Checks to do before chopping the tree
+checks:
+  is_sneaking: true # Checks whether the player can block the plugin by sneaking
+  has_permission: true # Checks whether the player needs permission to use the plugin
+
+# Changes to how unbalanced the plugin can be
+balancing:
+  reduces_durability: true # If the axe's durability should go down per EACH log dropped
+  durability_cost_factor: 1.5 # How much durability EACH log costs. The final cost is always rounded up.

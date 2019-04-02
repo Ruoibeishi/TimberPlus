@@ -1,0 +1,10 @@
+name: TimberPlus
+version: ${project.version}
+main: br.ruoibeishi.timberplus.TimberPlus
+api-version: "1.13"
+author: "Ruoibeishi"
+description: Timber Mod (from Hexxit) for spigot with extras
+website: https://github.com/Ruoibeishi/TimberPlus
+permissions:
+  timberp:
+    chop: true
